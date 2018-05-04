@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 
 // have the application run express
 var app = express();
-//define the Port, be sure to include the process.env
+//define the Port, be sure to include the process.env in case there is a custom port
 var PORT = process.env.PORT || 3000;
 
 //set up the body parser
